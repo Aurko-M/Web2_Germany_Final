@@ -1,0 +1,219 @@
+nav {
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+#list2 { width:40%; margin-left: auto; margin-right: auto; padding-top: 100px;}
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#090e1a;  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#090e1a; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }
+#list2 ul li { }
+#list2 ul li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#090e1a; border-left: 1px solid #999; }
+#list2 ul li p em { display:block; }
+
+h1.facts {
+	text-align: center;
+	line-height: 1;
+	font-size: 43px;
+	font-weight: 500;
+}
+h4.maps {
+	text-align: center;
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 250;
+}
+.featurette-heading {margin-top: 0px;}
+.cities {
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+img.maps{
+margin-left: auto;
+margin-right: auto;
+}
+
+.navbar-inverse {
+background-color: #090e1a;
+}
+.carousel-inner-food{
+position: relative;
+width: 50%;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+
+.foodcontent{
+width: 65%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.centerfoot {
+ text-align: center;
+}
+
+.navbar-inverse .navbar-brand {
+color: #8DA5BE;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #7a8189;
+}
+.dropdown-menu>li>a:hover{
+background-color: #090e1a;
+color: #FFFFFF;
+}
+span.bold{
+	font-weight: bold;
+}
+.otterContainer{
+width: 100%;
+float:left;
+text-align: center;
+display: inline-block;
+}
+
+span.currenttab {
+background-color: #090e1a;
+color: #FFFFFF;
+}
+.clear{
+clear: both;
+}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+  }
+}
+
+.commentSection {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../images/border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../images/border.png) 30 stretch;
+}
+.submitSection {
+    border: 10px solid transparent;
+	border-top: 0;
+    padding: 15px;
+    -webkit-border-image: url(../images/comment.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../images/comment.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../images/comment.png) 30 stretch;
+}
